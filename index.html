@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>exam</title>
+    <title>FashionHub</title>
     <link rel="icon" type="logo" href="assets/icons/favicon.svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,11 +11,7 @@
     <header class="header">
       <div class="left-header">
         <a href="#" class="logo">
-          <img
-            src="assets/icons/logo.svg"
-            alt="Furnivo Logo"
-            class="logo__img"
-          />
+          <img src="assets/icons/logo.svg" alt=" Logo" class="logo__img" />
         </a>
 
         <nav class="navbar">
@@ -55,30 +51,40 @@
 
         <a href="#">Skirts</a>
 
-        <span>Coast Dress</span>
+        <a href="#">Coast Dress</a>
       </div>
 
       <section class="product">
         <div class="product-gallery">
           <div class="main-image">
-            <img src="assets/images/product-1.png" alt="Coast Dress" />
+            <a href="#">
+              <img src="assets/images/product-1.png" alt="Coast Dress" />
+            </a>
           </div>
 
           <div class="thumbnail-container">
             <div class="thumbnail active">
-              <img src="assets/images/product-2.png" alt="" />
+              <a href="#">
+                <img src="assets/images/product-2.png" alt="" />
+              </a>
             </div>
 
             <div class="thumbnail">
-              <img src="assets/images/product-3.png" alt="" />
+              <a href="#">
+                <img src="assets/images/product-3.png" alt="" />
+              </a>
             </div>
 
             <div class="thumbnail">
-              <img src="assets/images/product-4.png" alt="" />
+              <a href="#">
+                <img src="assets/images/product-4.png" alt="" />
+              </a>
             </div>
 
             <div class="thumbnail">
-              <img src="assets/images/product-5.png" alt="" />
+              <a href="#">
+                <img src="assets/images/product-5.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
@@ -116,23 +122,27 @@
             </div>
 
             <div class="rating">
-              <span class="rating-number">
-                <i class="fa-regular fa-star"></i>
-                4.8
-              </span>
+              <div class="rating-top">
+                <span class="rating-number">
+                  <img src="assets/icons/star.svg" alt="" />
+                  4.8
+                </span>
 
-              <span class="reviews">
-                <i class="fa-regular fa-comment"></i>
-                67 Reviews
-              </span>
-              <small> 93% of buyers have recommended this. </small>
+                <span class="reviews">
+                  <img src="assets/icons/message.svg" alt="" />
+                  67 Reviews
+                </span>
+              </div>
+              <small>
+                <strong class="percent"> 93% </strong> of buyers have
+                recommended this.
+              </small>
             </div>
           </div>
-
           <div class="divider"></div>
 
           <div class="option-section">
-            <p class="option-title">Choose a Color</p>
+            <p class="choose-color">Choose a Color</p>
 
             <div class="colors">
               <button class="color color-selected"></button>
@@ -145,7 +155,7 @@
           </div>
 
           <div class="option-section">
-            <p class="option-title">Choose a Size</p>
+            <p class="choose-size">Choose a Size</p>
 
             <div class="sizes">
               <label>
@@ -185,7 +195,7 @@
             </div>
 
             <button class="add-cart">
-              <i class="fa-solid fa-bag-shopping"></i>
+              <img src="assets/icons/bag-white.svg" alt="" />
               Add To Cart
             </button>
           </div>
@@ -193,7 +203,7 @@
           <div class="delivery">
             <div class="delivery-item">
               <div class="delivery-icon">
-                <i class="fa-solid fa-truck"></i>
+                <img src="assets/icons/truck.svg" alt="" />
               </div>
 
               <div>
@@ -208,7 +218,7 @@
 
             <div class="delivery-item">
               <div class="delivery-icon">
-                <i class="fa-solid fa-bag-shopping"></i>
+                <img src="assets/icons/bag-red.svg" alt="" />
               </div>
 
               <div>
@@ -224,7 +234,212 @@
         </div>
       </section>
     </main>
+    <section class="reviews-section">
+      <div class="reviews">
+        <h2 class="section-title">Reviews</h2>
 
-    <footer></footer>
+        <div class="review">
+          <div class="review-top">
+            <img
+              src="assets/images/user-2.png"
+              class="review-avatar"
+              alt="Annie Stanley"
+            />
+
+            <div class="review-info">
+              <div class="review-name">
+                Annie Stanley
+                <span>3 Days ago</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="review-content">
+            <span>Great Product</span>
+
+            <p>
+              I was surprised by how soft and comfortable the fabric feels. The
+              dress fits perfectly and looks even better in person — totally
+              worth the price!
+            </p>
+
+            <div class="review-actions">
+              <button>♡ Like</button>
+              <button class="reply">Reply</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-top">
+            <img
+              src="assets/images/user-3.png"
+              class="review-avatar"
+              alt="Amelie Cooper"
+            />
+
+            <div class="review-info">
+              <div class="review-name">
+                Amelie Cooper
+                <span>3 Days ago</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="review-content">
+            <span>The best product In Market</span>
+
+            <p>
+              The blouse arrived quickly and the quality is amazing. The
+              stitching is neat, colors are vibrant, and it feels really elegant
+              when worn. I'll definitely buy again!
+            </p>
+
+            <div class="review-actions">
+              <button>♡ Like</button>
+              <button class="reply">Reply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="write-review">
+        <h2 class="section-title">Write a Review</h2>
+
+        <form>
+          <label for="review-title">Review Title</label>
+
+          <input type="text" id="review-title" placeholder="Great Products" />
+
+          <label for="review-content">Review Content</label>
+
+          <textarea id="review-content">
+ I ordered a summer dress from this boutique and absolutely loved it. The fabric is soft and light, perfect for warm days, and the fit was exactly as described. What impressed me most was the attention to detail — from the fine stitching to the beautiful packaging. It feels like each piece is made with care. I’ve already recommended the store to a few friends!></textarea
+          >
+          <button type="submit" class="submit-review">Submit Review</button>
+        </form>
+      </div>
+
+      <div class="similar-items">
+        <h2 class="section-title">Similar Items You Might Also Like</h2>
+
+        <div class="products-wrapper">
+          <button class="slider-arrow left-arrow">‹</button>
+
+          <div class="products">
+            <div class="product-card">
+              <div class="product-image">
+                <a href="">
+                  <img src="assets/images/product-6.png" alt="Cotton Slip" />
+                </a>
+                <button class="heart">♡</button>
+              </div>
+
+              <div class="product-info">
+                <h3>Cotton Slip</h3>
+                <strong>$859.00</strong>
+
+                <p>6 types of skirts available</p>
+
+                <div class="product-rating">
+                  <span>★★★★★</span>
+                  <small>(132)</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <a href="">
+                  <img src="assets/images/product-7.png" alt="Seaside Wrap" />
+                </a>
+                <button class="heart">♡</button>
+              </div>
+
+              <div class="product-info">
+                <h3>Seaside Wrap</h3>
+                <strong>$679.00</strong>
+
+                <p>6 types of skirts available</p>
+
+                <div class="product-rating">
+                  <span>★★★★★</span>
+                  <small>(155)</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <a href="">
+                  <img src="assets/images/product-8.png" alt="Breeze A-Line" />
+                </a>
+                <button class="heart">♡</button>
+              </div>
+
+              <div class="product-info">
+                <h3>Breeze A-Line</h3>
+                <strong>$529.00</strong>
+
+                <p>6 types of skirts available</p>
+
+                <div class="product-rating">
+                  <span>★★★★★</span>
+                  <small>(174)</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <a href="">
+                  <img src="assets/images/product-9.png" alt="Linen Flow" />
+                </a>
+                <button class="heart">♡</button>
+              </div>
+
+              <div class="product-info">
+                <h3>Linen Flow</h3>
+                <strong>$999.00</strong>
+
+                <p>6 types of skirts available</p>
+
+                <div class="product-rating">
+                  <span>★★★★★</span>
+                  <small>(238)</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <a href="">
+                  <img src="assets/images/product-10.png" alt="Sunray Skirt" />
+                </a>
+                <button class="heart">♡</button>
+              </div>
+
+              <div class="product-info">
+                <h3>Sunray Skirt</h3>
+                <strong>$749.00</strong>
+
+                <p>6 types of skirts available</p>
+
+                <div class="product-rating">
+                  <span>★★★★★</span>
+                  <small>(146)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-arrow right-arrow">›</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
